@@ -1,21 +1,13 @@
 import React from 'react'
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import NavbarComponent from './navbar-component/NavbarComponent'
+import NavbarItem from './navbar-item/NavbarItem'
 
+//#2A9D8F
 const NavTemplate = () => (
-  <Navbar collapseOnSelect>
-    <Navbar.Header>
-      <Navbar.Brand>
-        <a href="#">JobHunt</a>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <Navbar.Collapse>   
-      <Nav pullRight>
-        <NavItem eventKey={1} href="#">Link Right</NavItem>
-        <NavItem eventKey={2} href="#">Link Right</NavItem>
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
+    <NavbarComponent>
+        <NavbarItem href="#" label="Colabore"/>
+        <NavbarItem href="#" label="Poste uma vaga"/>
+    </NavbarComponent>
 )
 
 export default NavTemplate

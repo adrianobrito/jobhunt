@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Filter = () => <h1>CDN</h1>
+const Filter = () => <h1></h1>
 
 export default Filter
