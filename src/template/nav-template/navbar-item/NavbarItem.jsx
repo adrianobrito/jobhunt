@@ -8,7 +8,7 @@ class NavbarItem extends Component{
     	var featuredClass = this.props.isFeatured ? 'NavbarItem-featured' : '';
 
         return (
-            <NavItem href="{this.props.href}" className={featuredClass}>{this.props.label}</NavItem>
+            <NavItem href={this.props.href} className={featuredClass}>{this.props.label}</NavItem>
         );
     }
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import './NavbarComponent.css'
 
 class NavbarComponent extends Component {
 
@@ -8,7 +9,7 @@ class NavbarComponent extends Component {
             <Navbar collapseOnSelect>
               <Navbar.Header>
                 <Navbar.Brand>
-                  <a href="#">JobHunt</a>
+                  <a href="#" className="brand">JobHunt</a>
                 </Navbar.Brand>
                 <Navbar.Toggle />
               </Navbar.Header>

@@ -1,0 +1,13 @@
+.Filter-Tabs a {
+	color: #777;
+}
+
+.Filter-Tabs li.active a {
+    background-color: #2A9D8F !important;
+    text-decoration: none;
+}
+
+.Filter-Tabs li a:focus,
+.Filter-Tabs li a:active {
+   outline: none !important;
+}

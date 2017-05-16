@@ -1,0 +1,17 @@
+.JobBoardItem-container {
+	border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #97CC04 !important;
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.JobBoardItem-container p {
+	margin-bottom: 0;
+}
+
+.JobBoardItem-container h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
