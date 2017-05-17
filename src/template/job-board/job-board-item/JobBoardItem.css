@@ -1,9 +1,8 @@
 .JobBoardItem-container {
 	border: 1px solid transparent;
     border-radius: 4px;
-    background-color: #97CC04 !important;
-    color: white;
     padding: 1.5rem;
+    color: #333;
     margin-bottom: 1rem;
 }
 
@@ -11,7 +10,17 @@
 	margin-bottom: 0;
 }
 
-.JobBoardItem-container h3 {
-	margin-top: 0;
-	margin-bottom: 0;
+.JobBoardItem-title{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.JobBoardItem-category {
+	font-weight: bolder;
+	font-size: 10pt;
+}
+
+.JobBoardItem-company {
+	font-size: 12pt;
+	color: #444;	
 }
