@@ -26,14 +26,17 @@ class JobBoardItem extends Component {
 		return (
 			<div className="JobBoardItem-container" style={itemStyle}>
 				<Row>
-					<Col xs={10}>
+					<Col xs={8} className="JobBoardItem-coll">
 						<p className="JobBoardItem-category">{category.name}</p>
 						<h3 className="JobBoardItem-title">{title}</h3>
 						<p className="JobBoardItem-company">{company}</p>
+						<a href="#" className="JobBoardItem-details-link">Ver Detalhes</a>						
 					</Col>
-					<Col xs={2}>
-						<p>Há 2 dias</p>
-						<p>Fortaleza</p>
+					<Col xs={4} className="JobBoardItem-coll">
+						<div className="JobBoardItem-minor-details">
+							<p>Há 2 dias</p>
+							<p>Fortaleza</p>
+						</div>
 					</Col>
 				</Row>
 			</div>		

@@ -4,10 +4,17 @@
     padding: 1.5rem;
     color: #333;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .JobBoardItem-container p {
-	margin-bottom: 0;
+	margin-bottom: 1rem;
+}
+
+.JobBoardItem-coll {
+	vertical-align: middle;
+	display: inline-block;
+	float: none; 
 }
 
 .JobBoardItem-title{
@@ -22,5 +29,14 @@
 
 .JobBoardItem-company {
 	font-size: 12pt;
-	color: #444;	
+	color: #444;
+}
+
+.JobBoardItem-minor-details {
+	float: right;
+}
+
+.JobBoardItem-details-link {
+	font-size: 12pt;
+	color: #444;
 }
